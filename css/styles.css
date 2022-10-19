@@ -38,5 +38,8 @@ color: var(--header-color);
 /*   ----- конец стилизации Header-------*/
 /* стилизация секций */
 .section-tytle{
-    color: #212121;;
+/*    color: var(--header-color); */
+}
+.section-text{
+    color: var(--p-color) ;
 }
