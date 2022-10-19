@@ -1,17 +1,25 @@
 /* Цвета в проекте */
 /* цвет основного текста #212121 */
 /* цвет дополнительного текста #757575 */
-/* background: #F5F5F5; */
-/* #2196F3 100% синий     */
+/* background основонй: #F5F5F5; */
+/* #2196F3 100% синий и акцент  */
+/* background hero и footter: #2F303A; */
+/* цвет h1 и текста в hero и footer:  #FFFFFF;*/
+/* цвет ссілок почты и телефона в footer: rgba(255, 255, 255, 0.6);*/
 :root{
     --header-color: #212121;
     --p-color: #757575;
     --accent-color: #2196F3;
     --background-color: #F5F5F5;
+    --background-color-footer: #2F303A;
+    --h1-footer-color: #FFFFFF;
+    --mail-phone-color-footer: rgba(255, 255, 255, 0.6);
 }
 body{
     color:var(--header-color);
-    background-color: var(--background-color);
+    background-color: var(--background-color);}
+footer {
+    background-color: var(--background-color-footer);
 }
 ul{
     list-style: none;
@@ -37,9 +45,17 @@ color: var(--header-color);
 }
 /*   ----- конец стилизации Header-------*/
 /* стилизация секций */
-.section-tytle{
-/*    color: var(--header-color); */
-}
 .section-text{
     color: var(--p-color) ;
 }
+/* стилизуем footer*/
+footer .logo {
+    color: var(--h1-footer-color);
+}
+.map{
+    color: var(--h1-footer-color);
+}
+.address .link{
+    color: var(--mail-phone-color-footer);
+}
+ 
