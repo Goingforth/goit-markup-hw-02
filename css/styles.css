@@ -61,6 +61,7 @@ color: var(--header-color);
     cursor: pointer;
  }
 /* стилизация секций */
+
 .section-text{
     color: var(--p-color) ;
 }
@@ -95,4 +96,11 @@ footer .logo {
     background-color: var(--accent-color);
     border: none;
     cursor: pointer;
+  }
+  /* стилизация работ портфолио*/
+  .example .section-tytle{
+    color:var(--header-color)
+  }
+  .example .section-text {
+    color: var(--p-color)
   }
