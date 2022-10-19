@@ -2,8 +2,41 @@
 /* цвет основного текста #212121 */
 /* цвет дополнительного текста #757575 */
 /* background: #F5F5F5; */
-/* 2196F3 100% синий     */
+/* #2196F3 100% синий     */
+:root{
+    --header-color: #212121;
+    --p-color: #757575;
+    --accent-color: #2196F3;
+    --background-color: #F5F5F5;
+}
 body{
-    color: #212121;
-    background-color: #F5F5F5;
+    color:var(--header-color);
+    background-color: var(--background-color);
+}
+ul{
+    list-style: none;
+}
+/* -------стилизация Header-------*/
+/* стилизация logo */
+.logo{
+    color: #000000;
+}
+.logo span{
+    color: var(--accent-color) ;
+}
+/*   ----- конец стилизации logo -------*/
+/* стилизация nav и connection*/
+.site-nav .link, .connection .link{
+color: var(--header-color);
+}
+.click a:hover, .click a:focus{
+    color: var(--accent-color);
+}
+.site-nav .link.current{
+    color: var(--accent-color);
+}
+/*   ----- конец стилизации Header-------*/
+/* стилизация секций */
+.section-tytle{
+    color: #212121;;
 }
