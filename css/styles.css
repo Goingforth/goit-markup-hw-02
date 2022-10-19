@@ -99,8 +99,8 @@ footer .logo {
   }
   /* стилизация работ портфолио*/
   .example .section-tytle{
-    color:var(--header-color)
+    color:var(--header-color);
   }
   .example .section-text {
-    color: var(--p-color)
+    color: var(--p-color);
   }
