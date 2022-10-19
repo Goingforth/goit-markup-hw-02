@@ -90,3 +90,9 @@ footer .logo {
       border: none;
       cursor: pointer;
   }
+    .button-portfolio:hover, .button-portfolio:focus {
+    color: var(--h1-footer-color);
+    background-color: var(--accent-color);
+    border: none;
+    cursor: pointer;
+  }
