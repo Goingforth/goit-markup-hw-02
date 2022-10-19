@@ -58,6 +58,7 @@ color: var(--header-color);
     color: var(--h1-footer-color);
     background-color: var(--accent-color);
     border: none;
+    cursor: pointer;
  }
 /* стилизация секций */
 .section-text{
@@ -80,9 +81,12 @@ footer .logo {
  .button-portfolio {
      color: var(--header-color);
      background-color: var(--background-button-portfolio);
-     border: none;}
+     border: none;
+     cursor: pointer;
+    }
   .button-portfolio.current{
       color: var(--h1-footer-color);
       background-color: var(--accent-color);
       border: none;
+      cursor: pointer;
   }
