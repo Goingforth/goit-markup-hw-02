@@ -18,9 +18,10 @@
 body{
     color:var(--header-color);
     background-color: var(--background-color);}
-footer {
+
+/* footer, .hero {
     background-color: var(--background-color-footer);
-}
+}*/
 ul{
     list-style: none;
 }
@@ -44,6 +45,17 @@ color: var(--header-color);
     color: var(--accent-color);
 }
 /*   ----- конец стилизации Header-------*/
+/* -----стилизация секции hero-----*/
+ /* ---- конец стилизации секции hero -----*/
+ .hero h1{
+    color: var(--h1-footer-color);
+    background-color: var(--background-color-footer);
+ }
+ .button{
+    color: var(--h1-footer-color);
+    background-color: var(--accent-color);
+    border: none;
+ }
 /* стилизация секций */
 .section-text{
     color: var(--p-color) ;
@@ -51,11 +63,14 @@ color: var(--header-color);
 /* стилизуем footer*/
 footer .logo {
     color: var(--h1-footer-color);
+    background-color: var(--background-color-footer);
 }
 .map{
     color: var(--h1-footer-color);
+    background-color: var(--background-color-footer);
 }
 .address .link{
     color: var(--mail-phone-color-footer);
+    background-color: var(--background-color-footer);
 }
  
