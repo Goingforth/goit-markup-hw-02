@@ -52,25 +52,78 @@ color: var(--header-color);
 }
 .site-nav .link.current{
     color: var(--accent-color);
-}
+    }
+    .site-nav, .connection{
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 1.33;
+            letter-spacing: 0.02em;
+    }
 /*   ----- конец стилизации Header-------*/
 /* -----стилизация секции hero-----*/
  /* ---- конец стилизации секции hero -----*/
  .hero h1{
     color: var(--h1-footer-color);
     background-color: var(--background-color-footer);
+
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        /* or 136% */
+    
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
  }
  .button{
     color: var(--h1-footer-color);
     background-color: var(--accent-color);
     border: none;
     cursor: pointer;
+
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.88;
+        /* identical to box height, or 188% */
+    
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
  }
 /* стилизация секций */
-
+.section-tytle{
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+       }
 .section-text{
     color: var(--p-color) ;
+
+        font-size: 14px;
+        line-height: 1.71;
+        /* or 171% */
 }
+ .section-tytle.work ,  .section-tytle.team{
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+.section-tytle.name{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.19;
+    
+        text-align: center;
+}
+.section-text.prof{
+        font-size: 16px;
+        line-height: 1.19;
+    
+        text-align: center;
+}
+
 /* стилизуем footer*/
 footer .logo {
     color: var(--h1-footer-color);
