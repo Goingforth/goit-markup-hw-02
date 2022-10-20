@@ -52,8 +52,8 @@ color: var(--header-color);
 }
 .site-nav .link.current{
     color: var(--accent-color);
-    }
-    .site-nav, .connection{
+    } 
+     .site-nav, .connection{
             font-weight: 500;
             font-size: 14px;
             line-height: 1.33;
@@ -129,6 +129,12 @@ footer .logo {
     color: var(--h1-footer-color);
     background-color: var(--background-color-footer);
 }
+.address.click{
+        font-style: normal;
+        font-size: 14px;
+        line-height: 1.71;
+        /* or 171% */
+}
 .map{
     color: var(--h1-footer-color);
     background-color: var(--background-color-footer);
@@ -137,12 +143,19 @@ footer .logo {
     color: var(--mail-phone-color-footer);
     background-color: var(--background-color-footer);
 }
+
  /*  стилизация кнопок портфолио */
  .button-portfolio {
      color: var(--header-color);
      background-color: var(--background-button-portfolio);
      border: none;
      cursor: pointer;
+
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 1.62;
+        /* identical to box height, or 162% */
+      text-align: center;
     }
   .button-portfolio.current{
       color: var(--h1-footer-color);
@@ -159,7 +172,18 @@ footer .logo {
   /* стилизация работ портфолио*/
   .example .section-tytle{
     color:var(--header-color);
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.0;
+    /* identical to box height, or 200% */
+    
+    letter-spacing: 0.06em;
   }
   .example .section-text {
     color: var(--p-color);
+
+    font-size: 16px;
+    line-height: 1.88;
+    /* identical to box height, or 188% */
   }
