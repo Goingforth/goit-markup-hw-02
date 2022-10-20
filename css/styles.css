@@ -21,15 +21,12 @@ body{
     color:var(--header-color);
     font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
-  /*  background-color: var(--background-color); */
-}
+    /* background-color: var(--background-color); */
+    }
 
-/* footer, .hero {
-    background-color: var(--background-color-footer);
-}*/
 ul{
     list-style: none;
-}
+    }
 /* -------стилизация Header-------*/
 /* стилизация logo */
 .logo{
@@ -38,7 +35,8 @@ ul{
         font-weight: 700;
         font-size: 26px;
         line-height: 1.2;
-}
+        text-decoration: none;
+       }
 .logo span{
     color: var(--accent-color) ;
 }
@@ -46,6 +44,7 @@ ul{
 /* стилизация nav и connection*/
 .site-nav .link, .connection .link{
 color: var(--header-color);
+text-decoration: none;
 }
 .click a:hover, .click a:focus{
     color: var(--accent-color);
@@ -134,14 +133,16 @@ footer .logo {
         font-size: 14px;
         line-height: 1.71;
         /* or 171% */
-}
+        }
 .map{
     color: var(--h1-footer-color);
     background-color: var(--background-color-footer);
+    text-decoration: none;
 }
 .address .link{
     color: var(--mail-phone-color-footer);
     background-color: var(--background-color-footer);
+    text-decoration: none;
 }
 
  /*  стилизация кнопок портфолио */
@@ -177,8 +178,8 @@ footer .logo {
     font-size: 18px;
     line-height: 2.0;
     /* identical to box height, or 200% */
-    
     letter-spacing: 0.06em;
+    text-decoration: none;
   }
   .example .section-text {
     color: var(--p-color);
@@ -186,4 +187,7 @@ footer .logo {
     font-size: 16px;
     line-height: 1.88;
     /* identical to box height, or 188% */
+  }
+  .link{
+    text-decoration: none;
   }
