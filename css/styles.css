@@ -7,6 +7,7 @@
 /* цвет h1 и текста в hero и footer:  #FFFFFF;*/
 /* цвет ссілок почты и телефона в footer: rgba(255, 255, 255, 0.6);*/
 /* цвет фона кнопок портфолио #F5F4FA */
+/* цвет первой части лого #000000 */
 :root{
     --header-color: #212121;
     --p-color: #757575;
@@ -16,12 +17,12 @@
     --h1-footer-color: #FFFFFF;
     --mail-phone-color-footer: rgba(255, 255, 255, 0.6);
     --background-button-portfolio: #F5F4FA ;
+    --logo-black-color: #000000 ;
 }
 body{
     color:var(--header-color);
     font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
-    /* background-color: var(--background-color); */
     }
 
 ul{
@@ -30,7 +31,7 @@ ul{
 /* -------стилизация Header-------*/
 /* стилизация logo */
 .logo{
-    color: #000000;
+    color: var(--logo-black-color);
     font-family: 'Raleway';
         font-weight: 700;
         font-size: 26px;
@@ -91,8 +92,20 @@ text-decoration: none;
         letter-spacing: 0.06em;
  }
 /* стилизация секций */
+/* для скрытых заголовков*/
+    .visually-hidden {
+            position: absolute;
+            white-space: nowrap;
+            width: 1px;
+            height: 1px;
+            overflow: hidden;
+            border: 0;
+            padding: 0;
+            clip: rect(0 0 0 0);
+            clip-path: inset(50%);
+            margin: -1px;
+        }
 .section-tytle{
-        font-weight: 700;
         font-size: 14px;
         line-height: 1.14;
        }
@@ -124,9 +137,13 @@ text-decoration: none;
 }
 
 /* стилизуем footer*/
+/*-- footer style -- */
+footer{
+background-color: var(--background-color-footer);
+}
+
 footer .logo {
     color: var(--h1-footer-color);
-    background-color: var(--background-color-footer);
 }
 .address.click{
         font-style: normal;
@@ -136,12 +153,10 @@ footer .logo {
         }
 .map{
     color: var(--h1-footer-color);
-    background-color: var(--background-color-footer);
     text-decoration: none;
 }
 .address .link{
     color: var(--mail-phone-color-footer);
-    background-color: var(--background-color-footer);
     text-decoration: none;
 }
 
@@ -174,7 +189,6 @@ footer .logo {
   .example .section-tytle{
     color:var(--header-color);
 
-    font-weight: 700;
     font-size: 18px;
     line-height: 2.0;
     /* identical to box height, or 200% */
@@ -190,4 +204,7 @@ footer .logo {
   }
   .link{
     text-decoration: none;
+  }
+   .address.click a:hover, .address.click a:focus{
+    color: var(--h1-footer-color);
   }
