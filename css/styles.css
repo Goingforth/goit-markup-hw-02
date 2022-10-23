@@ -138,7 +138,11 @@ ul {
   line-height: 1.19;
 
   text-align: center;
-}
+  }
+  /*  стилизация фона секции team*/
+  .team{
+    background-color: var(--background-button-portfolio);
+  } 
 
 /* стилизуем footer*/
 /*-- footer style -- */
